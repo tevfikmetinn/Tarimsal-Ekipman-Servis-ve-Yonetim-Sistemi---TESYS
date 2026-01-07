@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2C1AD04-8D15-4400-BEB1-7FCB5A572963}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Firat.Tesys.Forms</RootNamespace>
+    <AssemblyName>Firat.Tesys.Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\tevfik\Desktop\setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>son.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8F94FAE03DA327C4754EEBED65B77F2E4F9C3FC7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Firat.Tesys.Forms_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v25.2.Core, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v25.2.Core, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v25.2.UI, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v25.2.Wizard, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaMenu.Designer.cs">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMakineTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMakineTanim.Designer.cs">
+      <DependentUpon>FrmMakineTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMusteriTanim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMusteriTanim.Designer.cs">
+      <DependentUpon>FrmMusteriTanim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParcaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParcaKayit.Designer.cs">
+      <DependentUpon>FrmParcaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParcaYonetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParcaYonetimi.Designer.cs">
+      <DependentUpon>FrmParcaYonetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServisKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServisKayit.Designer.cs">
+      <DependentUpon>FrmServisKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServisListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServisListesi.Designer.cs">
+      <DependentUpon>FrmServisListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUstaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUstaKayit.Designer.cs">
+      <DependentUpon>FrmUstaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUstaYonetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUstaYonetimi.Designer.cs">
+      <DependentUpon>FrmUstaYonetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAnaMenu.resx">
+      <DependentUpon>FrmAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMakineTanim.resx">
+      <DependentUpon>FrmMakineTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMusteriTanim.resx">
+      <DependentUpon>FrmMusteriTanim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParcaKayit.resx">
+      <DependentUpon>FrmParcaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParcaYonetimi.resx">
+      <DependentUpon>FrmParcaYonetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServisKayit.resx">
+      <DependentUpon>FrmServisKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServisListesi.resx">
+      <DependentUpon>FrmServisListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUstaKayit.resx">
+      <DependentUpon>FrmUstaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUstaYonetimi.resx">
+      <DependentUpon>FrmUstaYonetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Firat.Tesys.Forms_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Firat.Tesys.Business\Firat.Tesys.Business.csproj">
+      <Project>{8dee9cd8-25dd-4106-8cbd-0ade65de076e}</Project>
+      <Name>Firat.Tesys.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Firat.Tesys.Interface\Firat.Tesys.Interface.csproj">
+      <Project>{68225d46-08d2-4d24-9e12-82d4da7c5a9f}</Project>
+      <Name>Firat.Tesys.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Firat.Tesys.Service\Firat.Tesys.Service.csproj">
+      <Project>{a3ebb9dc-1b07-44c6-b38a-01d7df885ccb}</Project>
+      <Name>Firat.Tesys.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="son.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
