@@ -30,9 +30,17 @@ Proje Yapısı
 
 Firat.Tesys.Solution
 ├── Firat.Tesys.Business    # İş Mantığı ve Validasyonlar (BLL)
+
+
 ├── Firat.Tesys.DataAccess  # SQL Sorguları ve Bağlantı Yönetimi (DAL)
+
+
 ├── Firat.Tesys.Forms       # Kullanıcı Arayüzü (UI - DevExpress)
+
+
 ├── Firat.Tesys.Interface   # Soyutlama ve Interface Tanımları
+
+
 └── Firat.Tesys.Service     # Ortak Servis ve Yardımcı Fonksiyonlar
 
 
